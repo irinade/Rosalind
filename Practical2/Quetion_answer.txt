@@ -1,7 +1,9 @@
 1. Dynamic Programming, Recursivity: Rabbits and Recurrence Relations
+
 Q1:
 The initial elements are a pair of newborn baby rabbits at month 1. The recurrence relation of the Fibonacci sequence Fn is :
 Fn = Fn-1 + Fn-2 
 I have heard about Fibonacci recurrence relation before in the exact same example. Last year our computer science teacher showed us this example in the Rosalind exercises list. 
+
 Q2:
 Can be found in the Python script.

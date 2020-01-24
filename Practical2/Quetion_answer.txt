@@ -6,4 +6,40 @@ Fn = Fn-1 + Fn-2
 I have heard about Fibonacci recurrence relation before in the exact same example. Last year our computer science teacher showed us this example in the Rosalind exercises list. 
 
 Q2:
-Can be found in the Python script.
+Can be found in the Python script. The execution time of my 2 functions is different. It seems that iterative function is always faster. I think it is because the recursive function calls itself each time it needs to execute, so it takes more time. 
+
+Q3:
+Can be found in the Python script. 
+
+Q4:
+Can rabbits become extinct in this model?
+Rabbits can not become extinct in this model because there is no mortality factor, the only option for the rabbits is to create new rabbits. To allow the rabbits population to reach extinction, we need to add a mortality factor, an option that will be able to diminuish the number of rabbit as it grows. It can be death from natural factors like old age, or it can be by introducing a predator to your rabbit population. To implement such changes, we need to add new conditions.
+
+
+2. Mortal Fibonacci Rabbits
+
+Q1:
+After 6 months, if the rabbits lifespan is 3 months, the rabbits population is of 4 rabbits. I discovered this by drawing a graph.
+Q2:
+The execution time of my 2 functions is different. It seems that iterative function is always faster. I think it is because the recursive function calls itself each time it needs to execute, so it takes more time.
+Q3: Rabbit extinction, Rabbit apocalypse:
+Rabbits can not grow extinct in this model, indeed, even while running the model with 2 months of lifespan, the rabbits population still grows. Howhever, compared to the previous model, it still grows much slower. To make a rabbit population complitely disapear, we would need to add predators factor, or another factor that would kill rabbits faster that they would reproduce. We could add a function that would randomly remove rabbits from the population and see how the population evolve.
+In the opposit situation, rabbits can reproduce so much that they would take over the world. Counsidering the average lifespan of a rabbit in the wild is 2 years (so m = 24), after only 10 years (n = 120) we obtain 5356099397629197464730564 rabbits pair.
+
+
+3. Tumour cell growth
+
+Q1:
+In the code
+
+Q2:
+I run the program bellow for multiples r values from 1.5 to 3.9, with set Nt = 0.005 and n = 50. We can observe that for low r values we have a logistic growth. For r = 1.5, there is a quick growth in the first months, with small oscillations around 5 months, than the population stagnateafter less than 10 months.
+Reaching r = 2.5, we observe a quick growth, than oscillation (a lot more than for r = 1.5). We could hypothesise that there is a bifurcation due to a change of stability of the fixed points in the sequence. At r = 3, the population growth is chaotic. For the heigher the r value (3.5 and 3.9), the population will stagnates to 0 and collapses after 12 months. We can hypothesise that 0 has become the only attractive positive fixed point.
+
+Q3:
+We can estimate the parameters of the initial equation by looking at the graph produced. n is given by the x axis. Nt can be identified by looking at the origin ordinate of the graph. r by looking at the tangente of the curve at n = 0.
+
+
+4. Dynamic Programming: Point Mutations
+
+In the code...
